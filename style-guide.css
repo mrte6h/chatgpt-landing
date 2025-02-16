@@ -1,0 +1,54 @@
+/* ================================
+   ================================ 
+         Section Beche ha
+   ================================ 
+   ================================ */
+
+/* ================================ 
+               LAYOUT
+   ================================ */
+
+/* -------------------------------- 
+               Desktop
+   -------------------------------- */
+
+/* width: 1440px
+   height: 4364px
+   body padding-left: 108px
+   body padding-right: 108px */
+
+/* -------------------------------- 
+               Mobile
+   -------------------------------- */
+
+/* width: 360px
+   height: 3751px
+   body padding-left: 24px
+   body padding-right: 24px */
+
+/* ================================ 
+               FONT
+   ================================ */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* font-family: "Inter", sans-serif; */
+
+/* ================================ 
+                  COLORS
+      ================================ */
+/* 
+ 
+      
+      body : #040C18 ;
+      body-shadow : #707070;
+      body-child : #042C54 ;
+      black-color : #000;
+      primery-text : #ffff;
+      orange-color : #FF4820 ;
+      text : #81AFDD;
+      text-2 : #71E5FF;
+      line : #FF8A71;
+      box: linear-gradient(to right, #F49867, #AE67FA); 
+     
+
+        */
