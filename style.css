@@ -24,7 +24,7 @@ a {
 }
 
 * {
-  border: rgb(54, 15, 15) 1px solid;
+  /* border: rgb(54, 15, 15) 1px solid; */
   box-sizing: border-box;
 }
 
