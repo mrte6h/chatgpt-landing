@@ -24,7 +24,7 @@ a {
 }
 
 * {
-  /* border: rgb(54, 15, 15) 1px solid; */
+  border: rgb(54, 15, 15) 1px solid;
   box-sizing: border-box;
 }
 
@@ -124,45 +124,55 @@ html {
   flex-direction: column;
   gap: 2rem;
   background: #042c54;
-  width: 45%;
-  height: 100vh;
+  width: 50%;
+  height: 120vh;
   right: -6px;
   top: -23px;
 }
 
 .item_menu_mobile {
-  color: var(--white);
+  color: var(--text);
   font-family: var(--font);
-  padding: 0.5rem 3rem;
-  opacity: 0.6;
-  transition: all 200ms ease-in-out;
+  padding: 0.8rem 0 0.8rem 0.8rem;
+  width: 75%;
+  margin-inline: auto;
   position: relative;
+  transition: all 200ms ease-in-out;
+  background-color: #02235591;
+  border-radius: 0.4rem;
+  font-family: var(--font);
+}
+
+.item_menu_mobile:focus {
+  color: var(--white);
+}
+
+.item_menu_mobile::after {
+  position: absolute;
+  content: url("./assets/mobile/icons/keyboard_arrow.svg");
+  right: 0.2rem;
+  bottom: 0.2rem;
 }
 
 .menu_mobile_icon {
   margin-right: auto;
   padding: 0.3rem;
 }
-
-.item_menu_mobile::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -8px;
-  width: 100%;
-  height: 2px;
+/* .mobile_login {
+   display: flex;
+   flex-direction: column;
+   margin-inline: 2rem;
+}
+.mobile_btn {
+  color: var(--white);
+  padding: 1rem 7.3rem;
+}
+.mobile_btn_signin {
   background-color: var(--orange);
-  transform: scaleX(0);
-  transform-origin: right;
-  transition: transform 0.5s;
-  z-index: 100;
 }
-
-.item_menu_mobile:hover::after {
-  transform-origin: left;
-  transform: scaleX(1);
-  color: var(--orange);
-}
+.mobile_btn_login {
+  background-color: #81afdd5b;
+}  */
 
 /* ================================ 
                header
@@ -550,7 +560,7 @@ html {
     display: none;
   }
 
-  .menu_mobile{
+  .menu_mobile {
     width: 100%;
   }
 }
