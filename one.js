@@ -26,30 +26,6 @@ checkScreenSize();
 
 window.addEventListener("resize", checkScreenSize);
 
-// ==========================================
-
-// // Select all menu items
-// const menuItems = document.querySelectorAll(".item_menu_mobile");
-
-// menuItems.forEach((item) => {
-//   item.addEventListener("click", function (event) {
-//     event.preventDefault();
-
-//     // Get the target submenu ID
-//     const target = this.getAttribute("data-target");
-//     const submenu = document.getElementById(target);
-
-//     // Close all other submenus
-//     document.querySelectorAll(".submenu").forEach((sub) => {
-//       if (sub !== submenu) {
-//         sub.classList.remove("active");
-//       }
-//     });
-
-//     // Toggle the current submenu
-//     submenu.classList.toggle("active");
-//   });
-// });
 const menuItems = document.querySelectorAll(".item_menu_mobile");
 
 menuItems.forEach((item) => {
